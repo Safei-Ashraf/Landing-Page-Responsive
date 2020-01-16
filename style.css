@@ -93,7 +93,7 @@ header a:active{
 }
 .fa{
     color: chocolate;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 .grid{
     display: grid;
@@ -105,6 +105,8 @@ header a:active{
 }
 .description{
     text-align: left;
+    margin-left: 1rem;
+    font-size: 1.3rem;
 }
 /*HOW IT WORKS SECTION*/
 #how-it-works{
@@ -115,6 +117,11 @@ header a:active{
     height: fit-content;
     padding-top:75px;
 }
+iframe{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*PRICING*/
 #pricing{
@@ -122,8 +129,8 @@ header a:active{
     height: auto;
     min-height: 350px;
     width: 100%;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 #pricing .product{
     border: 1px solid black;
@@ -160,18 +167,20 @@ header a:active{
 }
 
 /*FOOTER*/
-footer{
-    height: 80px;
+#footer{
+    margin-top: 1vh;
+    background-color: #ddd;
+    padding: 5px;
+    padding-bottom: 5vh;
+    display: block;
+    font-size: 0.8rem;
+    padding-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
     margin-bottom: 0;
     position: absolute;
     width: 100%;
-    overflow: hidden;
-}
-#footer{
-    margin-top: 30px;
-    background-color: #ddd;
-    padding: 20px;
-    display: block;
 }
 #footer ul{
     display: flex;
@@ -179,6 +188,7 @@ footer{
     list-style: none;
     margin:1rem;
 }
+
 #footer ul li a{ 
     padding: 0 10px;
     color: black;
@@ -187,7 +197,7 @@ footer{
 footer ul #copyrights{
 font-weight: lighter;
 font-style: italic;
-margin-left: 50px;
+margin-left: 20px;
 } 
 /**MEDIA Query**/
 @media screen and (max-width:1100px) {
