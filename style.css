@@ -17,25 +17,20 @@ body{
     height: auto;
     min-height: 75px;
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
     padding-top: 2vh;
 }
 #header-logo{
-    width: 50vw;
+    width: 20vw;
     height: auto;
     margin-right: 15vw;
 }
 
 header a{
-    float:left;
+    float: right;
     display: block;
     color: black;
-    padding: 20px;
+    padding:  0 20px;
     text-decoration: none;
-    flex: 1;
     font-size: 1.2rem;
     text-align: right;
     height: 100%;
