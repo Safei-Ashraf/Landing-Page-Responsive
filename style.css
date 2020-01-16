@@ -21,12 +21,14 @@ body{
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
+    padding-top: 2vh;
 }
 #header-logo{
     width: 50vw;
-    height: 7vh;
+    height: auto;
     margin-right: 15vw;
 }
+
 header a{
     float:left;
     display: block;
@@ -57,7 +59,7 @@ header a:active{
     text-transform: uppercase;
     font-weight: bolder;
     font-size: larger;
-    padding: .19%;
+    padding: .5%;
     font-family: 'Oswald', sans-serif;
     display: block;
     cursor: pointer;
@@ -67,6 +69,9 @@ header a:active{
     box-shadow: 4px 4px 5px black;
 }
 /*HERO Styling*/
+#start-title{
+    font-size: 2.5rem;
+}
 #hero{
     text-align: center;
     margin-top: 5vh;
@@ -105,7 +110,7 @@ header a:active{
 }
 .description{
     text-align: left;
-    margin-left: 1rem;
+    margin-left: 0.3rem;
     font-size: 1.3rem;
 }
 /*HOW IT WORKS SECTION*/
@@ -119,8 +124,6 @@ header a:active{
 }
 iframe{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /*PRICING*/
